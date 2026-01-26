@@ -1,1 +1,2 @@
-# Password-strenght-checker-generator
+# Password-strenght-checker-and-generator
+
