@@ -1,0 +1,23 @@
+#random number generator
+from random import randint
+bot = randint(1,100)
+
+# User input
+while True:
+    user_input = input("Enter your guess (between 1 and 100): ")
+    if user_input.isdigit() == False:
+        print("Invalid input! Please enter a number.")
+        continue
+    correct_input = int(user_input)
+    if correct_input < bot:
+        print("Too low!")
+    elif correct_input > bot:
+        print("Too high!")
+    else:
+        print("Correct!")
+        question = input("Do you want to play again? (Yes/No): ")
+        if question.lower() == "yes" or question.lower() == "y":
+            bot = randint(1,100)
+            continue
+        else:
+            break
