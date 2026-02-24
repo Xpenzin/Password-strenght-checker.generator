@@ -1,4 +1,4 @@
-# Password-strenght-checker-and-generator
+# Password Strenght Checker + Generator
 
 *(Simple terminal script)*
 
