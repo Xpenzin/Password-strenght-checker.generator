@@ -10,11 +10,15 @@
 cd "downloaded file location"
 ```
 
-- Lastly, after completing the previous steps,use the following command:
+- Lastly, after completing the previous steps, use the following command:
   
   
 ```sh
 python Password_software?.py
+```
+or 
+```sh
+python3 Password_software?.py
 ```
 
 **Functions**:
